@@ -16,7 +16,7 @@ module.exports = function isuckattimezones(args, callback) {
     places = args
   }
 
-  var localTimezone = localTime.toString().split(' ')[5].slice(0, 3)
+  var localTimezone = localTime.toString().split(' ')[6].replace(/[()]/g, '')
 
   var times = { local : formatTime(localTime) + ' ' + localTimezone }
 
