@@ -1,0 +1,33 @@
+{
+  "name": "isuckattimezones",
+  "version": "0.0.1",
+  "description": "Quickly figure out time in other timezones.",
+  "homepage": "http://github.com/bmpvieira/isuckattimezones",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bmpvieira/isuckattimezones.git"
+  },
+  "main": "index.js",
+  "bin": {
+    "isatz": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "timezones",
+    "time",
+    "date",
+    "cli"
+  ],
+  "author": {
+    "name": "Bruno Vieira",
+    "email": "mail@bmpvieira.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "google-geocoding": "~0.1.7",
+    "async": "~0.9.0",
+    "timezone": "0.0.33"
+  }
+}
